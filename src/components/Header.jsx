@@ -1,7 +1,10 @@
 import React from 'react'
+import { HeaderStyled } from '../styled/Header.styled'
 
 export default function Header() {
     return (
-        <h1>Rick and Morty</h1>
+        <HeaderStyled>
+            <h1>Rick and Morty API Visualizer</h1>
+        </HeaderStyled>
     )
 }
